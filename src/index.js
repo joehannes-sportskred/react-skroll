@@ -1,5 +1,11 @@
+import nodeToScrollState from './utilities';
+import nodeChildrenToScrollState from './utilities';
+import contextProviderShape from './utilities';
+
+const utilities = { nodeToScrollState, nodeChildrenToScrollState, contextProviderShape };
+
 export { Scroller } from './Scroller';
 export { ScrollLink } from './ScrollLink';
 export { ScrollProvider } from './ScrollProvider';
 export { scrollConnect } from './scrollConnect';
-export { * as utilities } from './utilities';
+export utilities;
