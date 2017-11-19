@@ -1,5 +1,6 @@
-import React, { Component, PropTypes } from 'react'
-import contextProviderShape from './contextProviderShape'
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import contextProviderShape from './contextProviderShape';
 
 export default function scrollConnect(WrappedComponent) {
   return class WrappedWithScrollConnect extends WrappedComponent {

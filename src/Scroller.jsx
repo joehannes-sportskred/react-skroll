@@ -1,9 +1,10 @@
-import React, { Component, PropTypes } from 'react'
-import ReactDOM from 'react-dom'
-import { Motion, spring } from 'react-motion'
-import ResizeObserver from 'resize-observer-polyfill'
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import ReactDOM from 'react-dom';
+import { Motion, spring } from 'react-motion';
+import ResizeObserver from 'resize-observer-polyfill';
 // import { throttle } from 'throttle-debounce'
-import { contextProviderShape } from './utilities'
+import { contextProviderShape } from './utilities';
 
 export default class Scroller extends Component {
   static contextTypes = {

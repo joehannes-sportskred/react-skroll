@@ -1,5 +1,6 @@
-import React, { Component, PropTypes } from 'react'
-import { contextProviderShape } from './utilities'
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import { contextProviderShape } from './utilities';
 
 export default class ScrollLink extends Component {
   static contextTypes = {

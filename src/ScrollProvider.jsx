@@ -1,10 +1,11 @@
-import React, { Component, PropTypes, Children } from 'react'
-import { Motion, spring } from 'react-motion'
-import { throttle, debounce } from 'throttle-debounce'
-import ResizeObserver from 'resize-observer-polyfill'
+import React, { Component, Children } from 'react';
+import PropTypes from 'prop-types';
+import { Motion, spring } from 'react-motion';
+import { throttle, debounce } from 'throttle-debounce';
+import ResizeObserver from 'resize-observer-polyfill';
 
-import { nodeToScrollState, nodeChildrenToScrollState } from './utilities'
-import contextProviderShape from './contextProviderShape'
+import { nodeToScrollState, nodeChildrenToScrollState } from './utilities';
+import contextProviderShape from './contextProviderShape';
 
 /** Notes
 ## References:
