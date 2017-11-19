@@ -6,7 +6,7 @@ import ResizeObserver from 'resize-observer-polyfill';
 // import { throttle } from 'throttle-debounce'
 import { contextProviderShape } from './utilities';
 
-export default class Scroller extends Component {
+class Scroller extends Component {
   static contextTypes = {
     scroll: contextProviderShape
   }
@@ -98,3 +98,5 @@ export default class Scroller extends Component {
     )
   }
 }
+
+export default Scroller;

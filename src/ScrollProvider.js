@@ -27,7 +27,7 @@ child methods
 
 **/
 
-export default class ScrollProvider extends Component {
+class ScrollProvider extends Component {
   static childContextTypes = {
     scroll: contextProviderShape
   }
@@ -413,3 +413,5 @@ export default class ScrollProvider extends Component {
     )
   }
 }
+
+export default ScrollProvider;
