@@ -2,7 +2,7 @@
   "name": "react-skroll",
   "version": "0.4.3",
   "description": "Reactive Scrolling",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "files": [
     "dist",
     "lib"
@@ -39,6 +39,7 @@
   },
   "homepage": "https://github.com/du5rte/react-skroll#readme",
   "dependencies": {
+    "react-motion": "^0.5.2",
     "resize-observer-polyfill": "^1.3.2",
     "throttle-debounce": "^1.0.1"
   },
