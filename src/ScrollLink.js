@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { contextProviderShape } from './utilities';
 
-export default class ScrollLink extends Component {
+class ScrollLink extends Component {
   static contextTypes = {
     scroll: contextProviderShape
   };
@@ -31,3 +31,5 @@ export default class ScrollLink extends Component {
     )
   }
 }
+
+export default ScrollLink;
