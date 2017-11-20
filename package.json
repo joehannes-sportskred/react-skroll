@@ -2,7 +2,7 @@
   "name": "react-skroll",
   "version": "0.4.3",
   "description": "Reactive Scrolling",
-  "main": "src/index.js",
+  "main": "react-skroll.min.js",
   "files": [
     "dist",
     "lib"
