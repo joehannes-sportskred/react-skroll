@@ -32,4 +32,4 @@ class ScrollLink extends Component {
   }
 }
 
-export default ScrollLink;
+export ScrollLink;

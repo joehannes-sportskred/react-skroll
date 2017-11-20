@@ -99,4 +99,4 @@ class Scroller extends Component {
   }
 }
 
-export default Scroller;
+export Scroller;

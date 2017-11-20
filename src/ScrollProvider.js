@@ -414,4 +414,4 @@ class ScrollProvider extends Component {
   }
 }
 
-export default ScrollProvider;
+export ScrollProvider;
